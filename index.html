@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    
+</head>
+<body>
+   <section class="container">
+        <header class="header">
+            <nav class="navbar-desc ">            
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input type="text" name="" id="" placeholder="Search"> <span>|</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>       
+            <nav class="navbar-mobile ">
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="">
+                </div>
+                <div class="menu">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <div class="nav-mobile">
+                            <a href="index.html#home">Home</a>
+                            <a href="index.html#about">Shop</a>
+                            <a href="index.html#portfolio">Cart</a>
+                            <a href="index.html#contact">Contact</a>
+                        </div>
+                </div>
+                
+            </nav>
+        </header>
+   </section>
+   <section class="container">
+        <div class="hero">
+            <div class="hero-bg">
+               
+            </div>
+            <div>
+                <div class="d-flex delivery">
+                    <p>Bike Delivery</p>
+                    <img src="./assets/img/delivery-boy.png" alt="">
+                </div>
+                <h1 class="hero-text">                    
+                        The Fastest <br>
+                        <span>Delivery</span><br>
+                        In <span> Your City  </span>                 
+                </h1>
+               <div class="d-flex">
+                    <button class="order-btn">Order Now</button>
+                    <button class="process-btn d-flex"> <i class="fa fa-play" aria-hidden="true"></i> Order Process</button>
+               </div>
+            </div>
+            <div>
+                <img src="./assets/img/hero-food.png" alt="" class="hero-img">
+            </div>
+        </div>
+   </section>
+   <section class="container">
+        <div class="about d-flex"  id="about">
+            <div>
+                <i class="fas fa-clock"></i>
+                <h3>Today 10:00am - 10:00pm</h3>
+                <p>Working time</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Mohammadpur, Dhaka</h3>
+                <p>Our Location</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume"></i>
+                <h3>+88 017 0000 0000</h3>
+                <p>Phone Number</p>
+            </div>
+        </div>               
+   </section>
+
+   <section class="container">
+        <div class="section-header">
+            <p>Product</p>
+            <h2>Most Popular Items</h2>
+        </div>
+        <div class="products" id="products">            
+            
+        </div>
+      
+        <div class="load-more">
+            <button class="order-btn" onclick="loadMore()" id="load-more">Load More <i class="fa-regular fa-circle-right"></i></button>
+        </div>
+       
+   </section>
+   <section class="container">
+        <div class="section-header">
+            <p>Services</p>
+            <h2>Why Choose Our Favorite Food</h2>
+        </div>
+        <div class="service" id="service">            
+            <div class="card">                
+                <div class="card-body">
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        But I must explain to you how all this
+                    </p>
+                </div>
+            </div>
+            <div class="card">                
+                <div class="card-body">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        mistaken idea of denouncing pleasur and
+                    </p>
+                </div>
+            </div>
+            <div class="card">                
+                <div class="card-body">
+                    <i class="fa-solid fa-truck"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        prasising pain was bron.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="section-header">
+            <p>Testimonials</p>
+            <h2>Our Happy Client Says</h2>
+        </div>
+        <div class="testimonial-grid">
+            <div>
+                <div class="testimonial-slider">
+                    <div class="slider">
+                        <div class="card fade-in">
+                            <div class="user-info">
+                                <div>                            
+                                    <img src="assets/img/user/p1.png" alt="Person 1">
+                                   
+                                </div>
+                                <div>
+                                    <h3>John Doe</h3>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”</p>
+                        </div>
+                        <div class="card fade-in">
+                            <div class="user-info">
+                                <div>                            
+                                    <img src="assets/img/user/p1.png" alt="Person 1">
+                                   
+                                </div>
+                                <div>
+                                    <h3>John X</h3>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”</p>
+
+                        </div>
+                        <div class="card fade-in">
+                            <div class="user-info">
+                                <div>                            
+                                    <img src="./assets/img/user/p1.png" alt="Person 1">
+                                   
+                                </div>
+                                <div>
+                                    <h3>John Y</h3>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nisl tincidunt adipiscing dictumst blandit hac. Lectus cras velit sed dignissim ac, aliquet. Metus egestas habitant feugiat neque ultrices nunc, dolor egestas mus.”</p>
+
+                        </div>
+                        <!-- Add more cards as needed -->
+                        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                
+                </div>
+            </div>
+            <div>
+                <img src="./assets/img/testimonial.png" alt="" class="testimonial-img">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="cta">
+            <div>
+                <img src="./assets/img/cta.png" alt="">
+            </div>
+            <div class="newsletter">
+                <h2>Subcribe To Our Newsletter</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipidrscing elit. Purus mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.</p>
+                <div class="search">
+                    <form action="" id="newsletter">
+                        <input type="email" name="" id="email" placeholder="Type your email.....">
+                        <button type="submit" >SUBCRIBE</button> 
+                    </form>   
+                </div>
+                <h1 style="margin-top:85px;display:none;color:var(--primary-color);" id="thank"></h1>
+            </div>
+        </div>
+    </section>
+    <footer class="">
+        <div class="container footer-content">
+            <div>
+                <img src="./assets/img/logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
+                <ul class="d-flex social">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Opening Restaurant</h3>
+                <ul>
+                    <li><a href="#">Sat-Wet: 09:00am-10:00PM</a></li>
+                    <li><a href="#">Thursdayt: 09:00am-11:00PM</a></li>
+                    <li><a href="#">Friday: 09:00am-8:00PM</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Useful Link</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Delivery</a></li>
+                    <li><a href="#">Payment & Tex</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Mohammadpur, Dhaka</li>
+                    <li><i class="fa-solid fa-phone-volume"></i> +88 017 0000 0000</li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:" class="email">test@admin.com</a>
+                </ul>
+                <div class="contact">
+                    <input type="text" name="" id="" placeholder="Type your email">
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/app.js"></script>
+    <script>
+        window.onload=function(){
+            loadProducts();
+            testimonial();
+        }
+    </script>
+</body>
+</html>

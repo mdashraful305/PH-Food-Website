@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <nav class="navbar-desc ">            
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input type="text" name="" id="" placeholder="Search"> <span>|</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>       
+            <nav class="navbar-mobile ">
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="">
+                </div>
+                <div class="menu">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <div class="nav-mobile">
+                            <a href="index.html#home">Home</a>
+                            <a href="index.html#about">Shop</a>
+                            <a href="index.html#portfolio">Cart</a>
+                            <a href="index.html#contact">Contact</a>
+                        </div>
+                </div>
+                
+            </nav>
+        </header>
+   </section>
+   <section class="container">
+    <div class="section-header">
+        <p>Product</p>
+        <h2>Most Popular Items</h2>
+    </div>
+    <div class="products" id="products">            
+        
+    </div>
+  
+    <div class="load-more">
+        <button class="order-btn" onclick="loadMore()" id="load-more">Load More <i class="fa-regular fa-circle-right"></i></button>
+    </div>
+   
+</section>
+<footer class="" style="margin-top:45px">
+    <div class="container footer-content">
+        <div>
+            <img src="./assets/img/logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
+            <ul class="d-flex social">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Opening Restaurant</h3>
+            <ul>
+                <li><a href="#">Sat-Wet: 09:00am-10:00PM</a></li>
+                <li><a href="#">Thursdayt: 09:00am-11:00PM</a></li>
+                <li><a href="#">Friday: 09:00am-8:00PM</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Useful Link</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Order Delivery</a></li>
+                <li><a href="#">Payment & Tex</a></li>
+                <li><a href="#">Terms of Services</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> Mohammadpur, Dhaka</li>
+                <li><i class="fa-solid fa-phone-volume"></i> +88 017 0000 0000</li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:" class="email">test@admin.com</a>
+            </ul>
+            <div class="contact">
+                <input type="text" name="" id="" placeholder="Type your email">
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+    window.onload=function(){
+        loadProducts();     
+    }
+</script>
+</body>
+</html>

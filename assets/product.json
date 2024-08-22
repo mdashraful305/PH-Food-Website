@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f1.png",
+        "rating":4.5,
+    },
+    {
+        "id":2,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f2.png",
+        "rating":4.5,
+    },
+    {
+        "id":3,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f3.png",
+        "rating":4.5,
+    },
+    {
+        "id":4,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f4.png",
+        "rating":4.5,
+    },
+    {
+        "id":5,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f5.png",
+        "rating":4.5,
+    },
+    {
+        "id":6,
+        "name":"Gyro Sandwhic",
+        "price":$100,
+        "image":"assets/img/food/f6.png",
+        "rating":4.5,
+    }
+]

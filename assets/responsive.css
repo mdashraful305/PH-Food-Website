@@ -1,0 +1,156 @@
+@media only screen and (max-width : 480px) {
+    .d-flex{
+       flex-flow: wrap;
+    }
+    /*header*/
+    .navbar-desc{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+    }   
+    .nav-mobile{
+        display: none;
+    }
+    #check{
+        opacity: 0;
+    }
+    .checkbtn {
+        font-size: 1.5rem;
+        color: #f48e28;
+        cursor: pointer;
+    }
+    #check:checked ~ .nav-mobile {
+        display: block;
+    }
+    .nav-mobile {
+        position: absolute;
+        top: 6.5rem;
+        right: 29px;
+        background: #222831;
+        z-index: 1;
+        width: 200px;
+    }
+    .nav-mobile a {
+        color: #fff;
+        padding: 1rem 1.5rem;
+        display: block;
+        text-decoration: none;
+    }
+
+    /*hero*/
+    .hero{
+        flex-flow: wrap;
+        flex-direction: column;
+    }
+    .hero-text{
+        font-size: 55px;
+    }
+    .hero-bg{
+        display: none;
+    }
+    .hero div .hero-img{
+        width: 100%;
+    }
+    .hero .order-btn ,.hero .process-btn{
+        font-size: 14px;        
+       
+        margin-top: 0px;
+    }
+    .hero .process-btn{
+        margin:25px 0 0 0;
+        justify-content: flex-start;
+    }
+    /*About*/
+    .about{
+        padding: 35px 0px;
+        flex-direction: column;
+    }
+    .about div{
+        width: 100%;    
+    }
+    .about div:not(:first-child){
+        margin-top: 45px;  
+    }
+    .about div:not(:last-child){
+       border: none;
+    }
+
+    /*Products*/
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /*Service*/
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service .card .card-body{
+        padding: 100px 25px;
+    }
+    /*CTA*/
+    .cta{
+        flex-direction: column;
+        padding:25px 0;
+    }
+    .cta div{
+        width: 100%;
+    }
+    .cta img{
+        width: 80%;
+    }
+    .newsletter{
+        padding: 25px 25px 75px 25px;
+    }
+    .newsletter h2{
+        font-size: 20px;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    /*Testimonial*/
+    .testimonial-grid {
+        display: block;
+    }    
+    
+    .testimonial-img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .testimonial-slider .card{
+        padding: 60px 50px;
+    }
+    .testimonial-slider .card img{
+        width: 60px;
+        height: 60px;
+    }
+    .testimonial-slider .card h3{
+        font-size: 18px;
+    }
+    .user-info p{
+        font-size: 14px;
+    }
+    .testimonial-slider .card .testimonial-desc{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .newsletter input {
+        width: 100%;
+        height: 42px;
+        padding: 10px;       
+    }
+    .newsletter button {       
+        right: 9px;
+        top: -15px;
+        padding: 10px 14px;       
+        font-size: 11px;      
+    }
+    /*Footer*/
+    footer {
+        padding: 50px 0 80px 0;
+    }
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);       
+    }
+}
